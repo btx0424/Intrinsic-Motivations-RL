@@ -30,12 +30,13 @@ A non-exhuastive collection of research works regarding intrisic motivations and
 	- maximize the MI between surrounding state and agent state
 11. [NovelD: A Simple yet Effective Exploration Criterion, 2021](https://openreview.net/forum?id=CYUzpnOkFJp)
 	- reward the increase in novelty (measured by RND) to achieve BFS-like exploration
-12. [Information is Power: Intrinsic Control via Information Capture](https://openreview.net/forum?id=MO76tBOz9RL)
-	- minimize the state visitation entropy
+12. [SMiRL: Surprise Minimizing Reinforcement Learning in Unstable Environments, ICLR2021](https://openreview.net/forum?id=cPZOyoDloxl)
+	- minimize the state entropy
+13. [Information is Power: Intrinsic Control via Information Capture, NeurIPS2021](https://openreview.net/forum?id=MO76tBOz9RL)
+	- minimize the state visitation entropy in a partially observable setting
  
 ## Comparison 
 - exploration: **state** means a wide coverage of the state space, **behavior** means meaningful action sequences that lead to some states. 
-
 
 |         | Motivation  | Dynamics | Model-Free | Scope    | Exploration |
 |---------|-------------|----------|------------|----------|-------------|
@@ -44,4 +45,5 @@ A non-exhuastive collection of research works regarding intrisic motivations and
 | DIAYN[9]   | skill       | ✅        | ✅          | global   | behavior    |
 | MUSIC[10]   | control     | ❌        | ✅          | global   | behavior    |
 | NovelID[11] | novelty difference    | ❌        | ✅          | both     | state       |
-| IC2[12]     | certainty   | ✅        | ✅          | episodic | behavior    |
+| SMiRL[12]     | certainty in state  | ✅        | ✅          | episodic | behavior    |
+| IC2[13]     | certainty in state visitation  | ✅        | ✅          | episodic | behavior    |
