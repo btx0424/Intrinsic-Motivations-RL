@@ -26,9 +26,9 @@ A non-exhuastive collection of research works regarding intrisic motivations and
 	- goal-conditioned policy with a "goal achievement reward"
 9. [Diversity is All You Need: Learning Skills without a Reward Function, 2019](https://openreview.net/forum?id=SJx63jRqFm)
 	- learn distinguishable and diverse skills by learning to infer skill from states
-10. [Mutual Information State Intrinsic Control, 2021](https://openreview.net/forum?id=OthEq8I5v1)
+10. [Mutual Information State Intrinsic Control, ICLR2021](https://openreview.net/forum?id=OthEq8I5v1)
 	- maximize the MI between surrounding state and agent state
-11. [NovelD: A Simple yet Effective Exploration Criterion, 2021](https://openreview.net/forum?id=CYUzpnOkFJp)
+11. [NovelD: A Simple yet Effective Exploration Criterion, NeurIPS2021](https://openreview.net/forum?id=CYUzpnOkFJp)
 	- reward the increase in novelty (measured by RND) to achieve BFS-like exploration
 12. [SMiRL: Surprise Minimizing Reinforcement Learning in Unstable Environments, ICLR2021](https://openreview.net/forum?id=cPZOyoDloxl)
 	- minimize the state entropy
