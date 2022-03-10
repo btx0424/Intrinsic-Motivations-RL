@@ -1,10 +1,12 @@
 # Intrinsic-Motivations-and-URL
 
-A non-exhuastive collection of research works regarding intrisic motivations and unsupervised RL.
+A non-exhuastive collection of papers regarding intrisic motivations and unsupervised RL.
 
 ## Why are they useful?
 
 - Extrinsic rewards can sometimes be sparse or very difficult to design, making it hard for the agent to efficiently learn about the environment and how to achieve an objective.
+- Some of them may enable agents to discover meaningful behavior without external supervision.
+- They help us to understand the generalization of a model.
 
 ## Papers
 1. [Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning, 2015](https://arxiv.org/abs/1509.08731)
