@@ -42,7 +42,7 @@ A non-exhuastive collection of research works regarding intrisic motivations and
 |---------|-------------|----------|------------|----------|-------------|
 | ICM[3]     | novelty     | ✅        | ✅          | global   | state       |
 | VIME[4]    | information | ✅        | ✅          | global   | state       |
-| DIAYN[9]   | skill       | ✅        | ✅          | global   | behavior    |
+| DIAYN[9]   | skill       | ❌        | ✅          | global   | behavior    |
 | MUSIC[10]   | control     | ❌        | ✅          | global   | behavior    |
 | NovelID[11] | novelty difference    | ❌        | ✅          | both     | state       |
 | SMiRL[12]     | certainty in state  | ✅        | ✅          | episodic | behavior    |
