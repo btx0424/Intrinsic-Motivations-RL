@@ -1,4 +1,4 @@
-# Intrinsic-Motivations-and-URL
+# Intrinsic-Motivations-RL
 
 A non-exhuastive collection of papers regarding intrisic motivations and unsupervised RL.
 
